@@ -36,24 +36,22 @@ graph TD;
 
 ## 5. Entity Relationship Diagram
 
-```ditaa
-+--------------+
 | [Merchant]   |
+|--------------|
 | id           |
 | name         |
 | password     |
 | address      |
 | phone_number |
 | join_date    |
-+--------------+
-+--------------+
+
 | [Product]    |
+|--------------|
 | id           |
 | name         |
 | quantity     |
 | price        |
-+--------------+
-```
+
 
 
 
