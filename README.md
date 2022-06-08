@@ -1,6 +1,6 @@
 # Project E-Commerce API
 
-repositori ini terdapat kode dan dokumentasi mengenasi E-Commerce API.
+Repositori ini terdapat kode dan dokumentasi mengenasi E-Commerce API.
 
 ###### Daftar
 
@@ -20,7 +20,7 @@ Menginput, mengubah, maupun menghapus suatu product dengan akses token sebagai p
 
 ## 3. Sumber
 
-Permintaan dilakukan dengan persyaratan akses token, berawal dari login dalam meminta sebuah token. Sebelumnya 
+Permintaan dilakukan dengan persyaratan akses token, berawal dari login dalam meminta sebuah token. 
 
 ## 4. Alur Diagram
 
