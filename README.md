@@ -30,10 +30,9 @@ graph TD;
     Browser-->Login;
     Register-->Merchant;
     Login-->Merchant;
-    Login-->Product Service;
-    Product Service-->Product;
+    Login-->Product_Service;
+    Product_Service-->Product;
 ```
-
 
 ## [^5]: Diagram
 
