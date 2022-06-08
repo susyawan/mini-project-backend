@@ -2,13 +2,13 @@
 
 repositori ini terdapat kode dan dokumentasi mengenasi E-Commerce API.
 
-###### konten
+###### Konten
 
-- Ringkasan
-- Autentikasi
-- Sumber
-- Alur Diagram
-- Entity Relationship Diagram
+- ## 1[Ringkasan]
+- ## 2[Autentikasi]
+- ## 3[Sumber]
+- ## 4[Alur Diagram]
+- ## 5[Entity Relationship Diagram]
 
 ## 1. Ringkasan
 
@@ -52,9 +52,6 @@ graph TD;
 | quantity     |
 | price        |
 
-
-
-
 library yang digunakan dalam membuat back-end:
 - express
 - sequelize
@@ -65,21 +62,6 @@ library yang digunakan dalam membuat back-end:
 - joi
 - moment
 - nodemon
-
-terdiri dari 2 database yang digunakan:
-- merchant
-    - id:
-    - name:
-    - password:
-    - address:
-    - join_date:
-    - phone_number:
-
-- product
-    - id:
-    - name:
-    - quantity:
-    - price:
 
 folder dan file yang dibuat:
 
