@@ -2,13 +2,13 @@
 
 repositori ini terdapat kode dan dokumentasi mengenasi E-Commerce API.
 
-###### Konten
+###### Daftar
 
-- ## 1[Ringkasan]
-- ## 2[Autentikasi]
-- ## 3[Sumber]
-- ## 4[Alur Diagram]
-- ## 5[Entity Relationship Diagram]
+- Ringkasan
+- Autentikasi
+- Sumber
+- Alur Diagram
+- Entity Relationship Diagram
 
 ## 1. Ringkasan
 
