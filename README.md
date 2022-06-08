@@ -22,19 +22,37 @@ Menginput, mengubah, maupun menghapus suatu product dengan akses token sebagai p
 
 Permintaan dilakukan dengan persyaratan akses token, berawal dari login dalam meminta sebuah token. Sebelumnya 
 
-## 4. Diagram
+## 4. Alur Diagram
 
 ```mermaid
 graph TD;
-    Browser-->Register;
-    Browser-->Login;
-    Register-->Merchant;
-    Login-->Merchant;
-    Login-->Product_Service;
-    Product_Service-->Product;
+    Browser---Register;
+    Browser---Login;
+    Register---Merchant;
+    Login---Merchant;
+    Login---Product_Service;
+    Product_Service---Product;
 ```
 
-## 5. Diagram
+## 5. Entity Relationship Diagram
+
+```
+A[
+[Merchant]
+id
+name
+password
+address
+phone_number
+join_date]---
+B[
+[Product]
+id
+name
+quantity
+price]
+
+```
 
 
 
