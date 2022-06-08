@@ -1,4 +1,43 @@
-Mini Project Back-End
+# Project E-Commerce API
+
+repositori ini terdapat kode dan dokumentasi mengenasi E-Commerce API.
+
+###### konten
+
+- Ringkasan
+- Autentikasi
+- Sumber
+- Alur Diagram
+- Entity Relationship Diagram
+
+## [^1]: Ringkasan
+
+Mini project API back-end E-Commerce menggunakanan database mysql, mengubah password dengan bcrypt dan mengbuat token dengan JSON web token.
+
+## [^2]: Autentikasi
+
+Menginput, mengubah, maupun menghapus suatu product dengan akses token sebagai persyaratan dalam prosesnya.
+
+## [^3]: Sumber
+
+Permintaan dilakukan dengan persyaratan akses token, berawal dari login dalam meminta sebuah token. Sebelumnya 
+
+## [^4]: Diagram
+
+```mermaid
+graph TD;
+    Browser-->Register;
+    Browser-->Login;
+    Register-->Merchant;
+    Login-->Merchant;
+    Login-->Product Service;
+    Product Service-->Product;
+```
+
+
+## [^5]: Diagram
+
+
 
 library yang digunakan dalam membuat back-end:
 - express
